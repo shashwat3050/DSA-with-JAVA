@@ -1,6 +1,6 @@
 package May_21;
 
-public class rev_and_str_tri {
+public class leftHalf_butterfly {
     public static void main(String[] args) {
         for (int i = 0; i < 5; i++) {
             for (int j = 0; j <= i; j++) {
