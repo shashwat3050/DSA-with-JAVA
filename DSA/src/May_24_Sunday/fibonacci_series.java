@@ -1,9 +1,9 @@
-package May_19;
+package May_24_Sunday;
 
 import java.util.Scanner;
 // this code prints fibonacci series from zero to the desired index
 
-public class fibonacci {
+public class fibonacci_series {
     static int fib(int n) {
         if (n == 0) return 0;
         if (n == 1) return 1;

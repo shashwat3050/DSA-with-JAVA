@@ -1,4 +1,4 @@
-package May_21.Functions;
+package May_23.Functions;
 
 public class addFun {
     public static int add(int a, int b, int c){
