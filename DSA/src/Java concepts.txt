@@ -1,0 +1,33 @@
+- java is not purely object oriented because it does not support multiple inheritance and the datatypes are not in object form.
+
+- java is robust because of secure, memory management, multi threading, garbage collection, exception handling, strong type-checking (static 	type checking is good because it reduces the programming time)
+
+- while finding the perfect sq in the given range there is a possibility of overflow, so to avoid it divide the number
+
+- static is itself a class, so no object is required to access it
+
+----------FUNCTION----------
+features-
+- increase readability, enhance reusability, modularity, reliability and easy to debug and test.
+- data passed in the functions are called as arguments and the fields set in the functions are called as parameters
+components-
+- access modifiers
+- list of parameters
+
+- static variable and methods are stored in the stack memory
+- stack contain the stack frames made by functions which contain its local variables and are executed in LIFO manner
+
+- heap consists of the objects, reference, runtime data (ex. array)
+- where are non-static fun are stored? inside the method are(a non-heap memory)
+
+- nothing can be executed after the return statement inside the function
+- premitive datatype are always pass by value(values are passed so no data is changed in the actual location)
+- non-premitive datatype are pass by reference(address are passed so the value is not changed during the operation)
+
+- the memory are stored in the stack memory that points to the data in the heap
+
+- function overloading - functions having same name but different return(like void or int or something else) type or parameters(any of them 	must be different)
+- function over-riding - function with same name and the same return type but when a child class inherits a method from a parent class, it 	overrides that method to change its behaviour
+    static method and the final methods cannot be overridden
+
+
