@@ -2,20 +2,20 @@ package May_26;
 
 public class decimal_to_binary {
 
-    //-----------decimal to binary conversion using stringbuilder-----------
+    //-----------decimal to binary conversion using string-builder-----------
 
-//    static String deciToBin_string(int n){
-//        int rem = 0;
-//        if(n==0){
-//            return "0";
-//        }
-//        StringBuilder st = new StringBuilder("");
-//        while(n>0){
-//            st.append(n%2);
-//            n/=2;
-//        }
-//        return st.reverse().toString();
-//    }
+    static String deciToBin_string(int n){
+        int rem = 0;
+        if(n==0){
+            return "0";
+        }
+        StringBuilder st = new StringBuilder("");
+        while(n>0){
+            st.append(n%2);
+            n/=2;
+        }
+        return st.reverse().toString();
+    }
 
     //-----------decimal to binary conversion using integer----------
 

@@ -6,7 +6,9 @@
 
 - static is itself a class, so no object is required to access it
 
+
 ----------FUNCTION----------
+
 features-
 - increase readability, enhance reusability, modularity, reliability and easy to debug and test.
 - data passed in the functions are called as arguments and the fields set in the functions are called as parameters
@@ -29,5 +31,30 @@ components-
 - function overloading - functions having same name but different return(like void or int or something else) type or parameters(any of them 	must be different)
 - function over-riding - function with same name and the same return type but when a child class inherits a method from a parent class, it 	overrides that method to change its behaviour
     static method and the final methods cannot be overridden
+
+
+------------Arrays------------
+
+Array is a contiguous memory that stores a similar datatype of data
+
+features-
+- contiguous memory allocation
+- easy to access
+- easy to manage
+
+- int[] arr; //declaration
+- int[] arr = {1,2,3,4}; //initilation
+
+- length of an array - arrayName.length //length is an attribute whereas length() is a method used to get length of a string
+- memory allocation is done at the runtime inside the Heap memory, and the rest of the things are at the compile time like naming, size etc.
+
+- why '0' based indexing in arrays?
+    the index acts as an offset (a measure of distance) from the starting memory address of an array,
+    Think of an array as a row of adjacent memory lockers. The name of the array points directly to the first locker (the base address)
+    - To access the first element, you are exactly 0 steps away from the start. Therefore, its offset is 0.
+    - for second element, you move 1 step away from the start.
+    - and to access the nth element, you take n-1 steps.
+
+
 
 
