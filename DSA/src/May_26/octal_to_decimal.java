@@ -12,9 +12,9 @@ public class octal_to_decimal{
 //        return ans;
 //    }
 
-    static String octalToDeci_string(int n){
-
-    }
+//    static String octalToDeci_string(int n){
+//
+//    }
 
     public static void main(String[] args){
         //System.out.println(octalToDeci_int(12));

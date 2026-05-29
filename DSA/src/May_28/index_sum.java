@@ -1,0 +1,19 @@
+package May_28;
+
+public class index_sum {
+    static void sum(int[] arr1, int[] arr2){
+        int[] res = new int[arr1.length];
+        for(int i=0; i< arr1.length; i++){
+            res[i] = arr1[i]+arr2[i];
+        }
+        for(int j: res){
+            System.out.print(j+" ");
+        }
+    }
+    public static void main(String[] args) {
+        int[] nums1 = {1,2,3,4,5};
+        int[] nums2 = {4,5,6,3,3};
+
+        sum(nums1, nums2);
+    }
+}
