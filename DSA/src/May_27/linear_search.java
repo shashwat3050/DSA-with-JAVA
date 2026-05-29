@@ -1,9 +1,9 @@
-package May_27.Arrays;
+package May_27;
 
 import java.util.Scanner;
 
 public class linear_search {
-    static int search(int[] nums, int k){
+    static int return_Index(int[] nums, int k){
         int get=-1;
         for(int i=0; i<nums.length; i++){
             if(nums[i] == k){
@@ -13,7 +13,7 @@ public class linear_search {
         }
         return get;
     }
-    static boolean ele(int[] nums, int k){
+    static boolean isPresent(int[] nums, int k){
         boolean get=false;
         for(int i=0; i<nums.length; i++){
             if(nums[i] == k){
@@ -32,7 +32,7 @@ public class linear_search {
             arr[i] = sc.nextInt();
         }
         int a = sc.nextInt();
-        System.out.println(search(arr, a));
-        System.out.println(ele(arr, a));
+        System.out.println(return_Index(arr, a));
+        System.out.println(isPresent(arr, a));
     }
 }
