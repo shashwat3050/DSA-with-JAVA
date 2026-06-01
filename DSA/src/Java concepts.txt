@@ -33,7 +33,7 @@ components-
     static method and the final methods cannot be overridden
 
 
-------------Arrays------------
+------------ARRAYS------------
 
 Array is a contiguous memory that stores a similar datatype of data
 
@@ -55,6 +55,14 @@ features-
     - for second element, you move 1 step away from the start.
     - and to access the nth element, you take n-1 steps.
 
+-------------TIME and SPACE COMPLEXITY---------------
+
+TC - It is the amount of time an algo takes to complete as a function of its input size
+    - it does not depend upon the number of lines of code, it is decided by the number of times code ran (iterations)
+    - Notations - Big of O (worst case)
+                - Theta (average case)
+                - Omega (best case)
+SC - The amount of space consumed by the size of input taken
 
 
 

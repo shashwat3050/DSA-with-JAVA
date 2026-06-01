@@ -34,14 +34,15 @@ public class array_substraction {
         }
         int[] res = new int[len];
         for(int i=len-1; i>=0; i--){
+
             res[i] = finalN%10;
             finalN /= 10;
         }
         System.out.println(Arrays.toString(res));
     }
     public static void main(String[] args) {
-        int[] nums1 = {1,2,3};
-        int[] nums2 = {3,3};
+        int[] nums1 = {3,3};
+        int[] nums2 = {1,2,3};
 
         sub(nums1, nums2);
     }
