@@ -1,1 +1,1 @@
-DSA Practice Questions and Concepts in JAVA
+A comprehensive repository of Data Structures and Algorithms solutions implemented in Java. Maintained through daily practice to strengthen problem-solving skills, algorithmic thinking, and coding proficiency.
