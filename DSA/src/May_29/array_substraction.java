@@ -17,8 +17,9 @@ public class array_substraction {
 //        int finalN;
 //        if(n1>n2) finalN= n1-n2;         //this gives the same output as the other two
 //        else finalN= n2-n1;
-
+                //OR
 //        int finalN= Math.abs(n1-n2);            //this also gives the same output using the abs inbuilt function
+                //OR
         int finalN = n1>n2 ? n1-n2 : n2-n1;       //using ternery operator
 
         if(finalN==0){

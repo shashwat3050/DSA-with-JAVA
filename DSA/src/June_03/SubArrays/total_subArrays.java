@@ -1,4 +1,4 @@
-package May_29.SubArrays;
+package June_03.SubArrays;
 
 public class total_subArrays {
     static void all_subArr(int[] arr){
